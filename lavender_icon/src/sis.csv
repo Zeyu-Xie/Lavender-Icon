@@ -1,0 +1,5 @@
+name,description,used by,icon
+DEFAULT,,,text
+DOCKERFILE, A file that contains instructions for building a Docker image., Docker,docker
+FOLDER, A structure for organizing files., operating systems,folder
+LICENSE, A legal document that grants permission to use a software., software,license
