@@ -103,7 +103,7 @@ def load_icon_dict():
     with open(
         os.path.join(os.path.dirname(__file__), "icons.json"), "w"
     ) as file:
-        file.write(json.dumps(icon_dict, indent=4))
+        file.write(json.dumps(icon_dict))
 
 
 if __name__ == "__main__":

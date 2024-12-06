@@ -2,6 +2,7 @@ from os import path
 import json
 
 
+
 def _load_icon_list():
     icon_list_path = path.join(path.dirname(__file__), "src", "icons.json")
     with open(icon_list_path, "r") as f:

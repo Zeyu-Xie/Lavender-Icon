@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Lavender-Icon",
-    version="1.0.1",
+    version="1.0.3",
     description="A pip package for distributing file icons.",
     long_description=open(
         "README.md").read(),
@@ -17,5 +17,8 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
+    package_data={
+        'lavender_icon': ['src/icons.json'],
+    },
     python_requires=">=3.6",
 )
